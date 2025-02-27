@@ -1,0 +1,482 @@
+{
+  "00": {
+    "temperature": {
+      "reading": 9,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 270,
+      "speed": 10,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1027.87,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "01": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "85%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1027.36,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "02": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "85%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.86,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "03": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "85%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.35,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "04": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.28,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "05": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.22,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "06": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.15,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "07": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "85%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.36,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "08": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 225,
+      "speed": 11,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.57,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "09": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "86%",
+    "wind": {
+      "degrees": 225,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.78,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "10": {
+    "temperature": {
+      "reading": 9,
+      "unit": "C"
+    },
+    "humidity": "88%",
+    "wind": {
+      "degrees": 270,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.65,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "11": {
+    "temperature": {
+      "reading": 10,
+      "unit": "C"
+    },
+    "humidity": "87%",
+    "wind": {
+      "degrees": 270,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.52,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "12": {
+    "temperature": {
+      "reading": 10,
+      "unit": "C"
+    },
+    "humidity": "85%",
+    "wind": {
+      "degrees": 270,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1026.39,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "13": {
+    "temperature": {
+      "reading": 11,
+      "unit": "C"
+    },
+    "humidity": "81%",
+    "wind": {
+      "degrees": 270,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1025.84,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "14": {
+    "temperature": {
+      "reading": 11,
+      "unit": "C"
+    },
+    "humidity": "82%",
+    "wind": {
+      "degrees": 225,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1025.29,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "15": {
+    "temperature": {
+      "reading": 11,
+      "unit": "C"
+    },
+    "humidity": "81%",
+    "wind": {
+      "degrees": 225,
+      "speed": 12,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1024.74,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.1,
+      "unit": "mm"
+    }
+  },
+  "16": {
+    "temperature": {
+      "reading": 10,
+      "unit": "C"
+    },
+    "humidity": "67%",
+    "wind": {
+      "degrees": 315,
+      "speed": 8,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1032.93,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "17": {
+    "temperature": {
+      "reading": 9,
+      "unit": "C"
+    },
+    "humidity": "74%",
+    "wind": {
+      "degrees": 315,
+      "speed": 7,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1033.51,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "18": {
+    "temperature": {
+      "reading": 8,
+      "unit": "C"
+    },
+    "humidity": "77%",
+    "wind": {
+      "degrees": 315,
+      "speed": 6,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1034.08,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "19": {
+    "temperature": {
+      "reading": 7,
+      "unit": "C"
+    },
+    "humidity": "80%",
+    "wind": {
+      "degrees": 315,
+      "speed": 6,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1034.41,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "20": {
+    "temperature": {
+      "reading": 6,
+      "unit": "C"
+    },
+    "humidity": "82%",
+    "wind": {
+      "degrees": 315,
+      "speed": 5,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1034.75,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "21": {
+    "temperature": {
+      "reading": 5,
+      "unit": "C"
+    },
+    "humidity": "89%",
+    "wind": {
+      "degrees": 225,
+      "speed": 8,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1005.61,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0,
+      "unit": "mm"
+    }
+  },
+  "22": {
+    "temperature": {
+      "reading": 5,
+      "unit": "C"
+    },
+    "humidity": "92%",
+    "wind": {
+      "degrees": 270,
+      "speed": 8,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1004.14,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.5,
+      "unit": "mm"
+    }
+  },
+  "23": {
+    "temperature": {
+      "reading": 4,
+      "unit": "C"
+    },
+    "humidity": "91%",
+    "wind": {
+      "degrees": 315,
+      "speed": 7,
+      "unit": "mph"
+    },
+    "pressure": {
+      "reading": 1002.66,
+      "unit": "hPa"
+    },
+    "precipitation": {
+      "reading": 0.5,
+      "unit": "mm"
+    }
+  }
+}
