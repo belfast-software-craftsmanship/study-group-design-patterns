@@ -1,24 +1,20 @@
 import {Clock} from "src/clock";
 import {WeatherRecordingGateway} from "src/weather-recording-gateway";
-import {ForecastDisplay} from "src/forecast/forecast-display";
 import {TemperatureDisplay} from "src/temperature/temperature-display";
+import {Subject} from "src/subject.ts";
 
-export class WeatherStation {
-    private lastPressure: number = 0;
-
+export class WeatherStation extends Subject {
     private clock: Clock;
     private weatherRecordingGateway: WeatherRecordingGateway;
-    private forecastDisplay: ForecastDisplay;
     private temperatureDisplay: TemperatureDisplay;
 
     constructor(
         clock: Clock,
         weatherRecordingGateway: WeatherRecordingGateway,
-        forecastDisplay: ForecastDisplay,
         temperatureDisplay: TemperatureDisplay) {
+        super();
         this.clock = clock;
         this.weatherRecordingGateway = weatherRecordingGateway;
-        this.forecastDisplay = forecastDisplay;
         this.temperatureDisplay = temperatureDisplay;
     }
 
@@ -26,16 +22,7 @@ export class WeatherStation {
         const now = this.clock.getCurrent();
         const recording = this.weatherRecordingGateway.getRecordingFor(now);
 
-        if (Math.round(recording.pressure.reading) > this.lastPressure) {
-            this.forecastDisplay.output("Forecast: Improving weather on the way!");
-            this.lastPressure = Math.round(recording.pressure.reading);
-        } else if (Math.round(recording.pressure.reading) == this.lastPressure) {
-            this.forecastDisplay.output("Forecast: More of the same");
-            this.lastPressure = Math.round(recording.pressure.reading);
-        } else if (Math.round(recording.pressure.reading) < this.lastPressure) {
-            this.forecastDisplay.output("Forecast: Watch out for cooler, rainy weather");
-            this.lastPressure = Math.round(recording.pressure.reading);
-        }
+        this.notify(recording);
 
         const t = recording.temperature.reading;
         const rh = Number(recording.humidity.replace('%', ''));
@@ -50,4 +37,5 @@ export class WeatherStation {
         this.temperatureDisplay.output(
             `Current conditions: ${recording.temperature.reading} ${recording.temperature.unit}, with heat index ${heatIndex.toFixed(0)}`);
     }
+
 }
